@@ -5,7 +5,7 @@ require 'vlad/mercurial'
 class TestVladMercurial < Test::Unit::TestCase
   def setup
     @scm = Vlad::Mercurial.new
-    set :repository, "http://repo/project"
+    set :code_repo, "http://repo/project"
   end
 
   def test_checkout

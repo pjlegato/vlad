@@ -6,7 +6,7 @@ class TestVladGit < VladTestCase
   def setup
     super
     @scm = Vlad::Git.new
-    set :repository, "git@myhost:/home/john/project1"
+    set :code_repo, "git@myhost:/home/john/project1"
   end
 
   def test_checkout

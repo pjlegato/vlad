@@ -6,7 +6,7 @@ class TestVladSubversion < VladTestCase
   def setup
     super
     @scm = Vlad::Subversion.new
-    set :repository, "svn+ssh://repo/myproject"
+    set :code_repo, "svn+ssh://repo/myproject"
   end
 
   def test_checkout

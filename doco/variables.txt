@@ -1,7 +1,7 @@
 
 == Core Variables
 
-repository::           REQUIRED: Repository path: e.g. http://repo.example.com/svn
+code_repo::            REQUIRED: Repository path: e.g. http://repo.example.com/svn
 deploy_to::            REQUIRED: Deploy path on target machines. e.g. /var/www/app
 domain::               REQUIRED: Used for the common case of a single target
                        server. e.g. example.com

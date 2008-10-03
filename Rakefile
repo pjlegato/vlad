@@ -20,7 +20,7 @@ end
 desc "quick little hack to see what the state of the nation looks like"
 task :debug do
   Vlad.load :config => "lib/vlad/subversion.rb"
-  set :repository, "repository path"
+  set :code_repo, "code repo path"
   set :deploy_to,  "deploy path"
   set :domain,     "server domain"
 

@@ -101,7 +101,7 @@ Owner:	#{p4user}
 Root:	#{scm_path}
 
 View:
-  #{repository}/... //#{p4client}/...
+  #{code_repo}/... //#{p4client}/...
       CLIENT
     end
 

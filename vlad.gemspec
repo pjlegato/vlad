@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = %q{vlad}
-  s.version = "1.2.0"
-  s.date = %q{2008-05-25}
+  s.version = "1.2.0.1"
+  s.date = %q{2008-10-03}
   s.summary = %q{Vlad the Deployer is pragmatic application deployment automation, without mercy. Much like Capistrano, but with 1/10th the complexity. Vlad integrates seamlessly with Rake, and uses familiar and standard tools like ssh and rsync.}
   s.email = %q{ryand-ruby@zenspider.com}
   s.homepage = %q{http://rubyhitsquad.com/}

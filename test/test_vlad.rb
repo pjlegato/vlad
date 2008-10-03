@@ -69,7 +69,7 @@ class TestVlad < VladTestCase
 
   def test_initialize
     @vlad.set_defaults # ensure these three are virginal
-    assert_raise(Vlad::ConfigurationError) { @vlad.repository }
+    assert_raise(Vlad::ConfigurationError) { @vlad.code_repo }
     assert_raise(Vlad::ConfigurationError) { @vlad.deploy_to }
     assert_raise(Vlad::ConfigurationError) { @vlad.domain }
   end

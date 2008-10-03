@@ -39,5 +39,5 @@
 == AFTER:
 
   set :domain,      "zenspider.textdriven.com"
-  set :repository,  "svn://svn.example.com/rubyholic/branches/stable"
+  set :code_repo,   "svn://svn.example.com/rubyholic/branches/stable"
   set :deploy_to,   "/users/home/zenspider/domains/new.rubyholic.com"

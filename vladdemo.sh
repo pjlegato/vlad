@@ -13,7 +13,7 @@ pause() {
 }
 
 echo "Starting demo from scratch"
-echo "  This step creates a subversion repository and imports a new rails app"
+echo "  This step creates a subversion code repo and imports a new rails app"
 echo "  It modifies the Rakefile to load Vlad and creates config/deploy.rb"
 echo
 pause
@@ -31,7 +31,7 @@ echo "require 'rubygems'
 require 'vlad'
 Vlad.load" >> Rakefile
 
-echo "set :repository, 'svn://localhost/blah'
+echo "set :code_repo, 'svn://localhost/blah'
 set :domain, 'localhost'
 set :deploy_to, '/Users/ryan/demo/website'
 set :web_command, 'sudo apachectl'" > config/deploy.rb

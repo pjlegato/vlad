@@ -8,9 +8,9 @@
     set :application, "project"
     set :domain, "example.com"
     set :deploy_to, "/path/to/install"
-    set :repository, 'http://svn.example.com/project/branches/stable/'
+    set :code_repo, 'http://svn.example.com/project/branches/stable/'
     
-This defaults to using 'svn export' from +repository+, and a single
+This defaults to using 'svn export' from +code_repo+, and a single
 server for +app+, +db+, and +www+. If you need to tweak these things,
 refer to the variable documentation.
 

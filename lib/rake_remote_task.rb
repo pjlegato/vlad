@@ -409,7 +409,7 @@ class Rake::RemoteTask < Rake::Task
     @@default_env ||= {}
     self.reset
 
-    mandatory :repository, "repository path"
+    mandatory :code_repo,  "code repo path"
     mandatory :deploy_to,  "deploy path"
     mandatory :domain,     "server domain"
 
