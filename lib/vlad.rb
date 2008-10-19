@@ -20,7 +20,7 @@ module Vlad
 
   ##
   # This is the version of Vlad you are running.
-  VERSION = '1.2.0.1'
+  VERSION = '1.2.0.2'
 
   ##
   # Base error class for all Vlad errors.
@@ -60,11 +60,11 @@ module Vlad
     options = {:config => options} if String === options
 
     recipes = {
-      :app    => :mongrel,
+      :app    => 'merb.god',
       :config => 'config/deploy.rb',
       :core   => :core,
-      :scm    => :subversion,
-      :web    => :apache,
+      :scm    => :git,
+      :web    => :maintenance,
     }.merge(options)
     
     # be sure core comes first so base tasks aren't clobbered
